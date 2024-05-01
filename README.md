@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Currently learning
+I'm currently working on Battlefiesta and Accusoft<br>I'm Currently learning Web Development(MERN)
 
 
 ## 🌐 Socials:
