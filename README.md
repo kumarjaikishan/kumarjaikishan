@@ -1,7 +1,5 @@
 [![MasterHead](https://res.cloudinary.com/dusxlxlvm/image/upload/v1714549243/coder_fsxu0m.jpg)](https://github.com/kumarjaikishan)
-<h1 align="center">Hi 👋, I'm 
- <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&random=false&width=435&lines=Jai+Kishan+Kumar" />
- </h1>
+<h1 align="center">Hi 👋, I'm Jai kishan kumar</h1>
 <h3 align="center">A passionate Full Stack developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kumarjaikishan&label=Profile%20views&color=0e75b6&style=flat" alt="kumarjaikishan" /> </p>
