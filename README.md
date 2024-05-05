@@ -5,9 +5,11 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kumarjaikishan&label=Profile%20views&color=0e75b6&style=flat" alt="kumarjaikishan" /> </p>
 <img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/dusxlxlvm/image/upload/v1714548179/developer_xotwko.gif">
 
-- 🔭 I’m currently working on [Battlefiesta](https://accusoft.vercel.app)
+- 🔭 I’m currently working on MERN Stack 
 
 - 🌱 I’m currently learning **Dev Ops**
+
+- 👨‍💻 Some of my projects are [Battlefiesta](https://battlefiesta.in) and [Expense Manager](https://accusoft.battlefiesta.in)
 
 - 💬 Ask me about **Web Development(MERN)**
 
