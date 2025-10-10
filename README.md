@@ -17,7 +17,7 @@
 
 - ⚡ Fun Fact: I’m from a **non-IT background**, but code is now my favorite language!
 
-### Connect with me
+<h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/its_kishan.002" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="its_kishan.002" height="30" width="40" />
@@ -27,9 +27,9 @@
 </a>
 </p>
 
-<hr/>
 
-### 🛠️ Tech Stack
+
+# 🛠️ Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -49,16 +49,13 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
-<hr/>
 
-### 📊 GitHub Stats
+
+# 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 ![](https://github-readme-stats.vercel.app/api?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kumarjaikishan&theme=highcontrast&hide_border=false)
 
-<hr/>
 
-### ✍️ Random Dev Quote
+# ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-<hr/>
