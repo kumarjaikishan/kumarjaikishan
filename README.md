@@ -7,9 +7,6 @@
 </p>
 <img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/dusxlxlvm/image/upload/v1714548179/developer_xotwko.gif">
 
---
-
-### 💡 About Me
 - 💻 I'm a **Full-Stack MERN Developer** with strong interest in both frontend and backend development.  
 - 📘 Transitioned from a **commerce background** to tech through **self-learning and hands-on projects**.  
 - 🌱 Currently exploring **DevOps (AWS, Nginx, Deployment automation)** to enhance my full-stack workflow.  
@@ -18,7 +15,6 @@
 - 📫 Reach me at: **[kumar.jaikishan0@gmail.com](mailto:kumar.jaikishan0@gmail.com)**  
 - ⚡ Fun Fact: I’m from a **non-IT background**, but code is now my favorite language!
 
---
 
 ### 🌐 Connect with me
 <p align="left">
@@ -33,7 +29,7 @@
 </a>
 </p>
 
---
+---
 
 ### 🛠️ Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -55,14 +51,14 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
---
+-
 
 ### 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 ![](https://github-readme-stats.vercel.app/api?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kumarjaikishan&theme=highcontrast&hide_border=false)
 
---
+-
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
