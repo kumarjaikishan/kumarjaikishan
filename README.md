@@ -7,17 +7,19 @@
 </p>
 <img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/dusxlxlvm/image/upload/v1714548179/developer_xotwko.gif">
 
-- 💻 I'm a **Full-Stack MERN Developer** with strong interest in both frontend and backend development.  
+- 💻 I’m currently working on **MERN Stack**   
+
 - 📘 Transitioned from a **commerce background** to tech through **self-learning and hands-on projects**.  
+
 - 🌱 Currently exploring **DevOps (AWS, Nginx, Deployment automation)** to enhance my full-stack workflow.  
-- 🔭 Recent Projects: [Employee Attendance System](https://office.battlefiesta.in), [BattleFiesta](https://battlefiesta.in), [Accusoft Expense Manager](https://accusoft.battlefiesta.in).  
-- 💬 Ask me about: **React.js, Node.js, Express.js, MongoDB, and REST APIs.**  
-- 📫 Reach me at: **[kumar.jaikishan0@gmail.com](mailto:kumar.jaikishan0@gmail.com)**  
+
+- 🔭 Recent Projects: [Employee Attendance System](https://office.battlefiesta.in), [BattleFiesta](https://battlefiesta.in), [Accusoft Expense Manager](https://accusoft.battlefiesta.in).
+  
+- 💬 Ask me about **Web Development(MERN)** 
+
 - ⚡ Fun Fact: I’m from a **non-IT background**, but code is now my favorite language!
 
-<hr/>
-
-### 🌐 Connect with me
+### Connect with me
 <p align="left">
 <a href="https://instagram.com/its_kishan.002" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="its_kishan.002" height="30" width="40" />
