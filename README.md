@@ -9,8 +9,6 @@
 
 - 💻 I’m currently working on **MERN Stack**   
 
-- 📘 Transitioned from a **commerce background** to tech through **self-learning and hands-on projects**.  
-
 - 🌱 Currently exploring **DevOps (AWS, Nginx, Deployment automation)** to enhance my full-stack workflow.  
 
 - 🔭 Recent Projects: [Employee Attendance System](https://office.battlefiesta.in), [BattleFiesta](https://battlefiesta.in), [Accusoft Expense Manager](https://accusoft.battlefiesta.in).
@@ -25,10 +23,7 @@
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="its_kishan.002" height="30" width="40" />
 </a>
 <a href="mailto:kumar.jaikishan0@gmail.com" target="blank">
-  <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email" height="30" width="40" />
-</a>
-<a href="https://github.com/kumarjaikishan" target="blank">
-  <img align="center" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" height="30" width="40" />
+  <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email" height="30" width="30" />
 </a>
 </p>
 
