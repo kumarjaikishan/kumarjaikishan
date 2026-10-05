@@ -43,7 +43,12 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kumarjaikishan&theme=highcontrast&hide_border=false)
 
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br/>
+
+<div align="center">
+  <img src="./connect.svg" alt="Let's Connect" width="100%"/>
+</div>
+
+<br/>
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
