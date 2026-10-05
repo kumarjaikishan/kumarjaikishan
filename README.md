@@ -30,6 +30,12 @@
 
 <br/>
 
+<div align="center">
+  <img src="./id-dashboard.svg" alt="Developer ID &amp; Dashboard" width="100%"/>
+</div>
+
+<br/>
+
 
 ## 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
