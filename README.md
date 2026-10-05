@@ -1,132 +1,69 @@
 <div align="center">
 
-  <!-- Header Banner / Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,19,25,30&height=220&section=header&text=Jai%20Kishan%20Kumar&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20MERN%20Developer%20%7C%20DevOps%20%26%20Cloud%20Enthusiast&descFontSize=18&descAlignY=62&descAlign=50" width="100%"/>
+[![MasterHead](https://res.cloudinary.com/dusxlxlvm/image/upload/v1714549243/coder_fsxu0m.jpg)](https://github.com/kumarjaikishan)
 
-  <!-- Typing SVG -->
-  <a href="https://github.com/kumarjaikishan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=600&lines=Building+Scalable+Full+Stack+Web+Apps;MERN+Stack+Specialist;Passionate+About+DevOps+%26+Cloud;Always+Learning+%26+Innovating" alt="Typing SVG" />
-  </a>
+# Hi 👋, I'm Jai Kishan Kumar
 
-  <br/><br/>
+### MERN Stack Developer | Passionate about Building Scalable Web Applications
 
-  <!-- Social & Profile Badges -->
-  <a href="mailto:kumar.jaikishan0@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://instagram.com/its_kishan.002" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://github.com/kumarjaikishan">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://komarev.com/ghpvc/?username=kumarjaikishan&style=for-the-badge&color=007ec6">
-    <img src="https://komarev.com/ghpvc/?username=kumarjaikishan&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
-  </a>
+![Profile Views](https://komarev.com/ghpvc/?username=kumarjaikishan&label=Profile%20views&color=0e75b6&style=for-the-badge)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/its_kishan.002)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumar.jaikishan0@gmail.com)
 
 </div>
 
-<br/>
+<br>
 
----
+<img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/dusxlxlvm/image/upload/v1714548179/developer_xotwko.gif">
 
-### 💫 About Me
+- 💻 I'm currently working with the **MERN Stack**
+- 🌱 Currently exploring **DevOps (AWS, Nginx, Deployment Automation)** to level up my full-stack workflow
+- 🔭 Recent Projects: [Employee Attendance System](https://office.battlefiesta.in), [BattleFiesta](https://battlefiesta.in), [Accusoft Expense Manager](https://accusoft.battlefiesta.in).
+- 💬 Ask me about **Web Development(MERN)** 
+- ⚡ Fun Fact: I’m from a **non-IT background**, but code is now my favorite language!
 
-```javascript
-const jaiKishan = {
-    pronouns: "He/Him",
-    role: "Full Stack MERN Developer",
-    currentFocus: ["MERN Architecture", "DevOps (AWS, Docker, Nginx, CI/CD)"],
-    passions: ["Scalable Web Systems", "Performance Optimization", "Clean UI/UX"],
-    funFact: "Started from a non-IT background — code is now my favorite language!"
-};
-```
+<br>
 
-- 🔭 **Currently Building:** High-performance, scalable web applications with clean architecture.
-- 🌱 **Deepening Knowledge In:** **DevOps & Cloud** (`AWS`, `Docker`, `Nginx`, `Deployment Automation`).
-- 💬 **Ask Me About:** `React`, `Node.js`, `Express`, `MongoDB`, `REST APIs`, & `System Design`.
-- ⚡ **Fun Fact:** Driven by curiosity and love for problem solving; turned a non-IT background into a passion for software craftsmanship.
+## 🛠️ Tech Stack
+**Frontend:**  
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) 
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-<br/>
+**Backend:**  
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
----
+**Database:**  
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### 🚀 Featured Projects
+**DevOps & Deployment:**  
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) 
+![Cloudinary](https://img.shields.io/badge/cloudinary-%2318BFFF.svg?style=for-the-badge&logo=cloudinary&logoColor=white) 
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/docker%20compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-| Project | Description | Live Link | Tech Stack |
-| :--- | :--- | :---: | :--- |
-| 🏢 **Employee Attendance System** | Comprehensive employee management & real-time attendance tracking platform. | [Visit Live](https://office.battlefiesta.in) | `MERN` `Redux` `Tailwind` `JWT` |
-| 🎮 **BattleFiesta** | Competitive gaming & tournament esports platform with live schedules and leaderboards. | [Visit Live](https://battlefiesta.in) | `React` `Node.js` `MongoDB` `AWS` |
-| 💰 **Accusoft Expense Manager** | Intuitive financial and corporate expense tracking system with analytics. | [Visit Live](https://accusoft.battlefiesta.in) | `MERN` `Charts` `Express` `Cloudinary` |
 
-<br/>
+**Tools & Others:**  
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) 
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) 
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) 
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
----
 
-### 🛠️ Tech Stack & Skills
+## 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=kumarjaikishan&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=kumarjaikishan&theme=highcontrast&hide_border=false)
 
-<div align="center">
 
-#### **Frontend Development**
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,redux,tailwind,materialui,js,html,css,vite,jquery&perline=9" alt="Frontend Skills" />
-  </a>
-</p>
-
-#### **Backend & Databases**
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&perline=6" alt="Backend & DB Skills" />
-  </a>
-</p>
-
-#### **DevOps, Cloud & Tools**
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,docker,nginx,git,github,postman,vercel,ps&perline=8" alt="DevOps & Tools Skills" />
-  </a>
-</p>
-
-</div>
-
-<br/>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=kumarjaikishan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=e2e8f0&icon_color=38bdf8&bg_color=0d1117" alt="GitHub Stats" width="100%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjaikishan&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=e2e8f0&bg_color=0d1117" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kumarjaikishan&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="100%" />
-
-</div>
-
-<br/>
-
----
-
-### ✍️ Daily Dev Inspiration
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&bg_color=0d1117&text_color=e2e8f0&quote_color=38bdf8" alt="Dev Quote" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,19,25,30&height=100&section=footer" width="100%"/>
-</div>
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
