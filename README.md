@@ -54,7 +54,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&backgroundColor=171a2c&quoteColor=eceef6&authorColor=22d3ee&symbolColor=f472b6&border=true&borderColor=262a42" alt="Random Dev Quote" width="100%"/>
+  <img src="./quote.svg" alt="Random Dev Quote" width="100%"/>
 </div>
 
 <br/>
