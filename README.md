@@ -26,9 +26,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="./stack.svg" alt="Tech Stack - Jai Kishan Kumar" width="100%"/>
-</div>
+<img src="./stack.svg?v=1" alt="Tech stack" width="100%"/>
 
 <br/>
 
