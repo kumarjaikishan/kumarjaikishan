@@ -1,4 +1,4 @@
-import os, re, json
+import os, re, json, xml.etree.ElementTree as ET
 
 # Load template SVG
 with open('reference_megha/stack.svg', 'r', encoding='utf-8') as f:
@@ -116,31 +116,31 @@ ICONS = {
     }
 }
 
-# Categories setup
+# Categories setup - with escaped &amp;
 categories = [
     {
-        "title": "FRONTEND & UI",
+        "title": "FRONTEND &amp; UI",
         "tag_color": "#22d3ee",
         "y_header": 133,
         "y_chips": 148,
         "items": ["react", "redux", "mui", "tailwind", "javascript", "html5", "css3"]
     },
     {
-        "title": "BACKEND & DATABASE",
+        "title": "BACKEND &amp; DATABASE",
         "tag_color": "#38ef7d",
         "y_header": 213,
         "y_chips": 228,
         "items": ["node", "express", "mongodb", "jwt"]
     },
     {
-        "title": "DEVOPS & CLOUD",
+        "title": "DEVOPS &amp; CLOUD",
         "tag_color": "#FF9900",
         "y_header": 293,
         "y_chips": 308,
         "items": ["docker", "aws", "nginx", "cloudinary", "vercel"]
     },
     {
-        "title": "TOOLS & WORKFLOW",
+        "title": "TOOLS &amp; WORKFLOW",
         "tag_color": "#f472b6",
         "y_header": 373,
         "y_chips": 388,
@@ -171,8 +171,6 @@ for cat_idx, cat in enumerate(categories):
         col = item["color"]
         path_d = item["path"]
 
-        # Approximate chip width
-        # Icon at x+22 (width ~20), space ~8, text ~ 7.8px/char, right padding ~14
         char_len = len(lbl)
         chip_w = max(78, int(46 + char_len * 7.8 + 14))
         
@@ -287,4 +285,6 @@ svg_output = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www
 with open('stack.svg', 'w', encoding='utf-8') as f:
     f.write(svg_output)
 
-print("Generated stack.svg successfully! File size:", len(svg_output), "bytes")
+# Validate with XML parser
+ET.parse('stack.svg')
+print("XML validation passed 100%!")
