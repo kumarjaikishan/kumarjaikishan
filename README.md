@@ -51,7 +51,10 @@
 
 <br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+  <img src="./quote.svg" alt="Random Dev Quote" width="100%"/>
+</div>
+
+<br/>
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
