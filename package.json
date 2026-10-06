@@ -1,0 +1,9 @@
+{
+  "name": "kumarjaikishan",
+  "version": "1.0.0",
+  "description": "Dynamic GitHub Profile Quote Card and Assets",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
