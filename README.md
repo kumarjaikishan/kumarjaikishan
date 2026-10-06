@@ -6,8 +6,8 @@
 
 ### MERN Stack Developer | Passionate about Building Scalable Web Applications
 
-![Profile Views](https://komarev.com/ghpvc/?username=kumarjaikishan&label=PROFILE+VIEWS&color=22d3ee&style=for-the-badge)
-[![Portfolio](https://img.shields.io/badge/Portfolio-22D3EE?style=for-the-badge&logo=google-chrome&logoColor=black)](https://portfolio.battlefiesta.in)
+![Profile Views](https://komarev.com/ghpvc/?username=kumarjaikishan&label=PROFILE+VIEWS&color=0284c7&style=for-the-badge)
+[![Portfolio](https://img.shields.io/badge/Portfolio-22D3EE?style=for-the-badge&logo=google-chrome&logoColor=0d0e16&labelColor=0d0e16)](https://portfolio.battlefiesta.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-kishan/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/its_kishan.002)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumar.jaikishan0@gmail.com)
