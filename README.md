@@ -6,7 +6,7 @@
 
 ### MERN Stack Developer | Passionate about Building Scalable Web Applications
 
-[![Profile Views](https://img.shields.io/badge/PROFILE_VIEWS-450+-0284c7?style=for-the-badge&labelColor=0d0e16&logo=github&logoColor=white)](https://github.com/kumarjaikishan)
+![Profile Views](https://komarev.com/ghpvc/?username=kumarjaikishan&label=Profile%20views&color=0e75b6&style=for-the-badge)
 [![Portfolio](https://img.shields.io/badge/Portfolio-22D3EE?style=for-the-badge&logo=google-chrome&logoColor=0d0e16&labelColor=0d0e16)](https://portfolio.battlefiesta.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-kishan/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/its_kishan.002)
