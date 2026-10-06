@@ -49,6 +49,12 @@
 
 <div align="center">
   <img src="./connect.svg" alt="Let's Connect" width="100%"/>
+
+  <a href="https://portfolio.battlefiesta.in"><img src="https://img.shields.io/badge/Portfolio-22d3ee?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/dev-kishan/"><img src="https://img.shields.io/badge/LinkedIn-0ea5e9?style=for-the-badge&logo=linkedin&logoColor=0d0e16" alt="LinkedIn"/></a>
+  <a href="https://github.com/kumarjaikishan"><img src="https://img.shields.io/badge/GitHub-a78bfa?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
+  <a href="mailto:kumar.jaikishan0@gmail.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
+  <a href="https://instagram.com/its_kishan.002"><img src="https://img.shields.io/badge/Instagram-e11d48?style=for-the-badge&logo=instagram&logoColor=0d0e16" alt="Instagram"/></a>
 </div>
 
 <br/>
