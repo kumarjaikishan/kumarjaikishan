@@ -54,7 +54,7 @@
 <br/>
 
 <div align="center">
-  <img src="./quote.svg" alt="Random Dev Quote" width="100%"/>
+  <img src="https://kumarjaikishan.vercel.app/api/quote" alt="Random Dev Quote" width="100%"/>
 </div>
 
 <br/>
