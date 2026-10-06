@@ -6,22 +6,36 @@ function escapeXml(unsafe) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
-    .replace(/'/g, "&apos;");
+    .replace(/'/g, "&#39;");
 }
 
 export default function handler(req, res) {
   const item = quotes[Math.floor(Math.random() * quotes.length)];
 
-  // Escape XML characters first
   const safeQuote = escapeXml(item.quote);
   const safeHighlight = escapeXml(item.highlight || "");
   const safeSub = escapeXml(item.sub);
   const safeAuthor = escapeXml(item.author);
   const safeRole = escapeXml(item.role);
 
-  const quoteFormatted = safeHighlight
-    ? safeQuote.replace(safeHighlight, `<tspan fill="${item.color}">${safeHighlight}</tspan>`)
+  const formattedQuoteHtml = safeHighlight
+    ? safeQuote.replace(
+        safeHighlight,
+        `<span style="color: ${item.color}; font-weight: 700;">${safeHighlight}</span>`
+      )
     : safeQuote;
+
+  // Compute responsive font size based on quote length
+  const quoteLen = item.quote.length;
+  let quoteFontSize = 24;
+  let lineHeight = 1.35;
+  if (quoteLen > 90) {
+    quoteFontSize = 20;
+    lineHeight = 1.3;
+  } else if (quoteLen > 65) {
+    quoteFontSize = 22;
+    lineHeight = 1.35;
+  }
 
   res.setHeader("Content-Type", "image/svg+xml; charset=utf-8");
   res.setHeader(
@@ -35,15 +49,13 @@ export default function handler(req, res) {
   <title>Random Dev Quote</title>
   <defs>
     <style>
-      .sg { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; }
-      .sgm { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .bold { font-weight: 700; }
     </style>
 
     <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#171a2c"/>
-      <stop offset="1%" stop-color="#121423"/>
+      <stop offset="100%" stop-color="#121423"/>
     </linearGradient>
 
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
@@ -104,22 +116,29 @@ export default function handler(req, res) {
     <path d="M0,40 C0,18 12,5 30,0 L35,7 C22,11 16,20 15,28 L32,28 L32,56 L0,56 Z M44,40 C44,18 56,5 74,0 L79,7 C66,11 60,20 59,28 L76,28 L76,56 L44,56 Z" fill="url(#quoteMarkGrad)"/>
   </g>
 
-  <!-- Quote & Author Content -->
-  <g transform="translate(175, 68)">
-    <text x="0" y="44" fill="#eceef6" font-size="26" class="sg" letter-spacing="0.2">
-      ${quoteFormatted}
-    </text>
-    <text x="0" y="80" fill="#9ba2be" font-size="16" class="sgm">
-      ${safeSub}
-    </text>
+  <!-- Responsive HTML-in-SVG Quote Block (Zero text-overflow / cutting) -->
+  <foreignObject x="175" y="60" width="1030" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+      <div>
+        <div style="font-size: ${quoteFontSize}px; font-weight: 700; color: #eceef6; line-height: ${lineHeight}; letter-spacing: 0.2px; margin-bottom: 6px;">
+          ${formattedQuoteHtml}
+        </div>
+        <div style="font-size: 14.5px; color: #9ba2be; line-height: 1.3; font-weight: 400;">
+          ${safeSub}
+        </div>
+      </div>
 
-    <!-- Author Badge -->
-    <g transform="translate(0, 102)">
-      <rect x="0" y="0" width="${item.author.length * 9.5 + 40}" height="28" rx="14" fill="#1f233d" stroke="#363c63" stroke-width="1"/>
-      <text x="16" y="19" fill="${item.color}" font-size="13" class="mono bold">— ${safeAuthor}</text>
-      <text x="${item.author.length * 9.5 + 56}" y="19" fill="#6f7697" font-size="13" class="mono">${safeRole}</text>
-    </g>
-  </g>
+      <!-- Author Pill Badge -->
+      <div style="display: flex; align-items: center; gap: 14px; margin-top: 4px;">
+        <div style="background: #1f233d; border: 1px solid #363c63; border-radius: 14px; padding: 4px 14px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12.5px; font-weight: 700; color: ${item.color};">
+          — ${safeAuthor}
+        </div>
+        <div style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; color: #6f7697;">
+          ${safeRole}
+        </div>
+      </div>
+    </div>
+  </foreignObject>
 </svg>`;
 
   res.status(200).send(svg);
