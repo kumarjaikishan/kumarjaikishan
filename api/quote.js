@@ -73,12 +73,28 @@ const quotes = [
   }
 ];
 
+function escapeXml(unsafe) {
+  return String(unsafe)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 export default function handler(req, res) {
   const item = quotes[Math.floor(Math.random() * quotes.length)];
 
-  const quoteFormatted = item.highlight
-    ? item.quote.replace(item.highlight, `<tspan fill="${item.color}">${item.highlight}</tspan>`)
-    : item.quote;
+  // Escape XML characters first
+  const safeQuote = escapeXml(item.quote);
+  const safeHighlight = escapeXml(item.highlight || "");
+  const safeSub = escapeXml(item.sub);
+  const safeAuthor = escapeXml(item.author);
+  const safeRole = escapeXml(item.role);
+
+  const quoteFormatted = safeHighlight
+    ? safeQuote.replace(safeHighlight, `<tspan fill="${item.color}">${safeHighlight}</tspan>`)
+    : safeQuote;
 
   res.setHeader("Content-Type", "image/svg+xml; charset=utf-8");
   res.setHeader(
@@ -167,14 +183,14 @@ export default function handler(req, res) {
       ${quoteFormatted}
     </text>
     <text x="0" y="80" fill="#9ba2be" font-size="16" class="sgm">
-      ${item.sub}
+      ${safeSub}
     </text>
 
     <!-- Author Badge -->
     <g transform="translate(0, 102)">
       <rect x="0" y="0" width="${item.author.length * 9.5 + 40}" height="28" rx="14" fill="#1f233d" stroke="#363c63" stroke-width="1"/>
-      <text x="16" y="19" fill="${item.color}" font-size="13" class="mono bold">— ${item.author}</text>
-      <text x="${item.author.length * 9.5 + 56}" y="19" fill="#6f7697" font-size="13" class="mono">${item.role}</text>
+      <text x="16" y="19" fill="${item.color}" font-size="13" class="mono bold">— ${safeAuthor}</text>
+      <text x="${item.author.length * 9.5 + 56}" y="19" fill="#6f7697" font-size="13" class="mono">${safeRole}</text>
     </g>
   </g>
 </svg>`;
