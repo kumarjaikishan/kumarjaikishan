@@ -6,7 +6,7 @@
 
 ### MERN Stack Developer | Passionate about Building Scalable Web Applications
 
-[![Profile Views](https://kumarjaikishan.vercel.app/api/views)](https://github.com/kumarjaikishan)
+[![Profile Views](https://img.shields.io/badge/PROFILE_VIEWS-450+-0284c7?style=for-the-badge&labelColor=0d0e16&logo=github&logoColor=white)](https://github.com/kumarjaikishan)
 [![Portfolio](https://img.shields.io/badge/Portfolio-22D3EE?style=for-the-badge&logo=google-chrome&logoColor=0d0e16&labelColor=0d0e16)](https://portfolio.battlefiesta.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-kishan/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/its_kishan.002)
@@ -54,6 +54,8 @@
   <a href="https://github.com/kumarjaikishan"><img src="https://img.shields.io/badge/GitHub-a78bfa?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
   <a href="mailto:kumar.jaikishan0@gmail.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
   <a href="https://instagram.com/its_kishan.002"><img src="https://img.shields.io/badge/Instagram-e11d48?style=for-the-badge&logo=instagram&logoColor=0d0e16" alt="Instagram"/></a>
+  <br/>
+  <a href="https://github.com/kumarjaikishan"><img src="https://kumarjaikishan.vercel.app/api/views" alt="Live Profile Views"/></a>
 </div>
 
 <br/>
